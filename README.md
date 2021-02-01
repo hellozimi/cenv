@@ -21,7 +21,7 @@ cenv .env.development -- make build
 The envfiles works with both `export` prefix or not. All lines starting with
 `#` will be discarded.
 
-```
+```sh
 # example .env file
 POSTGRES_USER=user
 POSTGRES_PW=secret
@@ -41,7 +41,7 @@ mv cenv /usr/local/bin
 linux:
 
 ```
-wget -O cenv https://github.com/hellozimi/cenv/releases/latest/download/cenv-v0.1.0-darwin-amd64
+wget -O cenv https://github.com/hellozimi/cenv/releases/latest/download/cenv-v0.1.0-linux-amd64
 chmod +x cenv
 ```
 
